@@ -1,0 +1,139 @@
+/*ALL HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/* BODY */
+body {
+    background-color: black;
+    text-align: center;
+}
+
+/* TOP */
+.title1 {
+    color: red;
+    font-size: 800%;
+    display: inline-block;
+    background-color: darkred;
+}
+
+.title2 {
+    color: blue;
+    font-size: 800%;
+    display: inline-block;
+    background-color: indigo;
+}
+
+.subtitle {
+    color: green;
+}
+
+.heading {
+    font-size: 400%;
+    color: white;
+}
+
+.top {
+    text-align: center;
+}
+
+/* REST OF MEMEFLIX*/
+.rest {
+    background-color: #262626;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*NAVBAR*/
+.active {
+    background-color: #000080;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li{
+    float: left;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+
+nav ul li a {
+    font-size: 150%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(92, 92, 92);
+}
+
+
+/*HOME HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.subheading {
+    font-size: 150%;
+    color: rgba(187, 187, 187, 0.767);
+}
+
+.blog1 {
+    background-image: url("../resources/images/DemonBaby1.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*MOVIES HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.subheading2 {
+    font-size: 250%;
+    color: #bbb;
+}
+
+.movie {
+    font-size: 125%;
+}
+
+.movie a{
+    color: #bbb;
+}
+
+/*Movies*/
+#demonbaby{
+    background-image: url('../resources/images/DemonBaby2.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#actionassasin{
+    background-image: url('../resources/images/ActionAssasin1.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+#actionassasin a{
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 85%;
+}
+
+/*ABOUT HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.about-text {
+    font-size: 175%;
+    color: white;
+}
+
+/*NEWS HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.news-text {
+    font-size: 140%;
+    color: white;
+}
+
+.news-heading {
+    font-size: 300%;
+    color: white;
+}
