@@ -87,6 +87,25 @@ li a:hover {
     background-position: center;
 }
 
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    background-color: white;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+}
+
 /*MOVIES HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .subheading2 {
     font-size: 250%;
@@ -117,8 +136,8 @@ li a:hover {
 } 
 
 #actionassasin a{
-    color: black;
-    font-size: 90%;
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 85%;
 }
 
 /*ABOUT HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
