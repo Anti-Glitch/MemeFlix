@@ -140,6 +140,17 @@ th {
     font-size: 85%;
 }
 
+#robotalley{
+    background-image: url('../resources/images/RobotAlley1.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+
+#robotalley a{
+    color:rgba(0, 0, 0, 0.774)
+}
+
 /*ABOUT HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .about-text {
     font-size: 175%;
