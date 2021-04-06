@@ -167,3 +167,13 @@ th {
     font-size: 300%;
     color: white;
 }
+
+section {
+        border-top-color: black;  
+        border-top-width: 3px;  
+        border-top-style: solid;  
+
+        border-bottom-color: black;  
+        border-bottom-width: 3px;  
+        border-bottom-style: solid;  
+}
