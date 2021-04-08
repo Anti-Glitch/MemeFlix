@@ -111,6 +111,18 @@ th {
     text-align: center;
 }
 
+/*Games*/
+#RabbitTortoise {
+    background-image: url('../resources/images/rabbitTortoise1.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.games {
+    font-size: 125%;
+}
+
 /*Series*/
 #mobybored {
     background-image: url('../resources/images/mobybored1.png');
