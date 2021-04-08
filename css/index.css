@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* TOP */
 .title1 {
     color: red;
@@ -106,6 +111,18 @@ th {
     text-align: center;
 }
 
+/*Series*/
+#mobybored {
+    background-image: url('../resources/images/mobybored1.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.series {
+    font-size: 125%;
+}
+
 /*MOVIES HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .subheading2 {
     font-size: 250%;
@@ -149,6 +166,13 @@ th {
 
 #robotalley a{
     color:rgba(0, 0, 0, 0.774)
+}
+
+#tales3{
+    background-image: url('../resources/images/scarytales1.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /*ABOUT HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
