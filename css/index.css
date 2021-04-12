@@ -187,6 +187,17 @@ th {
     background-repeat: no-repeat;
 }
 
+#dream {
+    background-image: url('../resources/images/dream1.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dream a {
+    color: rgba(255, 0, 0, 0.774);
+}
+
 /*ABOUT HTML!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .about-text {
     font-size: 175%;
