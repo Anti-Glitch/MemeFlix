@@ -21,6 +21,8 @@
         </ul>
     </nav>
 
+
+    
     <div class = "top">
 
         <h1 class = "title">
@@ -38,6 +40,24 @@
             Movies
         </h1>
 
+        <form>
+            <input id="searchbar" oninput = "drop_down()" onkeyup="search_movies()" 
+            type="text" name="search" placeholder="Search movies">
+        </form>
+
+        <!-- ordered list -->
+            <div class = "dropdown">
+                <ul id='list' class = "dropdown-content">
+                    <li class = "movies-br"><br></li>
+                    <li class="movies"><a href = "#demonbaby">Demon Baby</a></li>
+                    <li class="movies"><a href = "#actionassasin">Moby : Action Assasin</a></li>
+                    <li class="movies"><a href = "#robotalley">Robot Alley</a></li>
+                    <li class="movies"><a href = "#tales3">Tree Scaree Tails</a></li>
+                    <li class="movies"><a href = "#dream">Moby Plays Minecraft</a></li>
+                    <li class = "movies-br"><br></li>
+                <ul>
+        </div>
+        
         <h1 class = "subheading2">Horror</h1>
         <h5 class = "movie" id = "demonbaby"><a href = "
             https://c.gethopscotch.com/p/11k9t5m7m4" target = "_blank"><br>Demon Baby <br><br><br><br><br><br></a></h5>
@@ -50,8 +70,9 @@
             target = "_blank"><br>Robot Alley <br><br><br><br><br><br></a></h5>
 
         <h1 class = "subheading2">Buy 1, get 1 free</h1>
+        <h1 class = "subheading2">Hint : Dont use code, "Mobysuks"</h1>
         <h5 class = "movie" id = "dream"><a href = "https://c.gethopscotch.com/p/11laloce3s"
-             target = "_blank">Moby plays minecraft <br><br><br><br><br><br></a></h5>
+             target = "_blank"><br> Moby plays minecraft <br><br><br><br><br><br></a></h5>
 
         <h1 class = "subheading2">Bargain Bin</h1>
         <h5 class = "movie" id = "tales3"><br><a href = "https://c.gethopscotch.com/p/11kyr3vvn3"
@@ -63,6 +84,45 @@
 
 
     </div>
+
+    <script>
+
+        // JavaScript code
+        function search_movies() {
+            let input = document.getElementById('searchbar').value
+            input=input.toLowerCase();
+            let x = document.getElementsByClassName('movies');
+            
+            for (i = 0; i < x.length; i++) { 
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display="none";
+                }
+                else {
+                    x[i].style.display="list-item";                 
+                }
+            }
+        }   
+
+        /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+        function drop_down() {
+            document.getElementById("list").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+
+    </script>
 
 </body>
 </html>
