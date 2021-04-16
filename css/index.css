@@ -134,6 +134,13 @@ th {
     background-repeat: no-repeat;
 }
 
+#detective {
+    background-image: url('../resources/images/detective1.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .games {
     font-size: 125%;
 }
