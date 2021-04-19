@@ -40,7 +40,7 @@
             Movies
         </h1>
 
-        <form>
+        <form class = "js-sb">
             <input id="searchbar" oninput = "drop_down()" onkeyup="search_movies()" 
             type="text" name="search" placeholder="Search movies">
         </form>
@@ -59,9 +59,9 @@
         </div>
         
         <h1 class = "subheading2">Horror</h1>
+            
         <h5 class = "movie" id = "demonbaby"><a href = "
-            https://c.gethopscotch.com/p/11k9t5m7m4" target = "_blank"><br>Demon Baby <br><br><br><br><br><br></a></h5>
-        
+        https://c.gethopscotch.com/p/11k9t5m7m4" target = "_blank"><br>Demon Baby <br><br><br><br><br><br></a></h5>      
 
         <h1 class = "subheading2">Action</h1>
         <h5 class = "movie" id = "actionassasin"><a href = "https://c.gethopscotch.com/p/11kjw8c9eo"
@@ -101,6 +101,8 @@
                     x[i].style.display="list-item";                 
                 }
             }
+
+            
         }   
 
         /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
@@ -121,6 +123,8 @@
                 }
             }
         }
+
+        // Check if input is submitted
 
     </script>
 
