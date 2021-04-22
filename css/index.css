@@ -141,6 +141,46 @@ th {
     background-repeat: no-repeat;
 }
 
+#ow {
+    background-image: url('../resources/images/ow1.jpg');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#eat {
+    background-image: url('../resources/images/eat1.jpg');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#violence {
+    background-image: url('../resources/images/violence1.jpg');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#battle {
+    background-image: url('../resources/images/battle1.jpg');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#battle2 {
+    background-image: url('../resources/images/battle2.jpg');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
 .games {
     font-size: 125%;
 }
