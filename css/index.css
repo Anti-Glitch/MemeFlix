@@ -127,6 +127,15 @@ th {
 }
 
 /*Games*/
+
+/*KC*/
+#kc1 {
+    background-image: url('../resources/images/kc1.png');
+    background-size: 17%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 #RabbitTortoise {
     background-image: url('../resources/images/rabbitTortoise1.png');
     background-size: 17%;
